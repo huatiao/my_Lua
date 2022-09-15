@@ -1,0 +1,6 @@
+print(1+2)
+print(1/2)
+print(2^3)
+print(2^0.5)
+print(3.0 == 3)
+print(2^0.5 ~= 1.414)
