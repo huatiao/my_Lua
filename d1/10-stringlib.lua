@@ -4,7 +4,7 @@ print(string.byte(str,1,-1)) -- -1代表倒数第一
 print(string.char(119,97,110,103,100,97,111))
 print(string.len(str))
 print(string.upper(str))
-print(string.rep(str,3))
+print(string.rep(str,3))  
 print(string.reverse(str))
 print(string.sub(str,2,-2))
 name = "Yiyangqianxi"

@@ -4,9 +4,12 @@ str = "hello'\""
 print(str)
 str = 'hello"'
 print(str)
-str = [[-- 这个换行不在字符串内容里面的
+
+-- 这个换行不在字符串内容里面的
+str = [[
 "Tt's 8 o'clock!"She said]]
 print(str)
+
 str = [=[
 arr[p[i]] = 1 ]=]
 print(str)
