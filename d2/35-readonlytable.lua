@@ -10,5 +10,5 @@ function readonly(t)
 end
 local a = readonly({1,2,3})
 print(#a)  -- a其实是个空表
-print(a[1],a[2],a[3])
+print(a[1],a[2],a[3])  -- 读访问了mt.__index
 a[1] = 2

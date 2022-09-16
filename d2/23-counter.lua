@@ -1,3 +1,4 @@
+-- 闭包可以存储状态，存储在upvalue
 function newCounter()
     local count = 0
     return function()  -- 1. 函数的返回值是一个匿名函数调用
